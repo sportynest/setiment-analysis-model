@@ -1,0 +1,11 @@
+# Model files
+*.pkl
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS-specific files
+.DS_Store
+
+# Virtual environments 
+venv/ 
