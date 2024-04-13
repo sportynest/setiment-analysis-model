@@ -18,11 +18,6 @@ This project delves into the application of natural language processing (NLP) te
 
 ## Dependencies
 
-* scikit-learn
-* pandas
-* nltk
-* numpy
-
 Install required dependencies with: `pip install -r requirements.txt`
 
 ## Instructions
@@ -36,7 +31,7 @@ Install required dependencies with: `pip install -r requirements.txt`
 
 * **Preprocessing:** The text data was cleaned, tokenized, and stemmed. Stopwords were removed, and I used TF-IDF weighting for feature representation.
 * **Modeling:** I experimented with Naive Bayes and Support Vector Machines with different kernels. GridSearchCV was used for hyperparameter tuning the SVM.
-* **Evaluation:** The model was evaluated using accuracy and confusion matrices. After fine-tuning, an SVM with an RBF kernel achieved the highest performance.  A slight bias towards positive classifications (more false positives than false negatives) suggests an area for potential refinement. 
+* **Evaluation:** The models were evaluated using accuracy and confusion matrices. Both a linear SVM and an SVM with an RBF kernel achieved the highest accuracy of 89.9%. Due to its simplicity, I opted to use the linear SVM for deployment. A slight bias towards positive classifications (more false positives than false negatives) suggests an area for potential refinement. 
 
 
 ## Future Work
@@ -46,7 +41,7 @@ Install required dependencies with: `pip install -r requirements.txt`
 
 ## Contact
 * paulsoyewo@gmail.com
-* sportynest.github.io
+* https://sportynest.github.io
 * https://www.linkedin.com/in/lekan-soyewo/
 
 Feel free to reach out with any questions or feedback! 
